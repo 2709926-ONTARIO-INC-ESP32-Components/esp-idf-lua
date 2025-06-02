@@ -2,7 +2,7 @@ menu "Lua"
 
 config LUA_MAXSTACK
     int "Stack size limit"
-    default 4000
+    default 16000
     help
         Limits the size of the Lua stack.
         Change it if you need a different limit. This limit is arbitrary;
